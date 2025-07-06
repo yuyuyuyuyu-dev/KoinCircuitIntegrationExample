@@ -1,9 +1,4 @@
----
-title: 'Seamless UI Architecture: Integrating Koin with Circuit in Compose Multiplatform'
-published: false
-description: 'A step-by-step guide to integrating Koin for dependency injection with Slacks Circuit library for a clean and scalable UI architecture in your Compose Multiplatform projects.'
-tags: kotlin, compose, android, koin, multiplatform
----
+# Seamless UI Architecture: Integrating Koin with Circuit in Compose Multiplatform
 
 Building UIs with Compose Multiplatform is getting more and more popular. If you're looking for a solid way to structure your app, you might have heard of [Circuit](https://slackhq.github.io/circuit/) from Slack for UI architecture and [Koin](https://insert-koin.io/) for dependency injection. They work great together!
 
