@@ -14,7 +14,7 @@ import org.koin.compose.koinInject
 
 @Composable
 @Preview
-fun App() {
+fun KoinCircuitIntegrationExampleApp() {
     val backStack = rememberSaveableBackStack(root = FooScreen)
     val navigator = rememberCircuitNavigator(backStack) {}
 
