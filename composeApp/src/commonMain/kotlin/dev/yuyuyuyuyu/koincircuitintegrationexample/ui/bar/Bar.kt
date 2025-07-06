@@ -20,7 +20,7 @@ fun Bar(state: BarScreen.State, modifier: Modifier) = Column(
     Button(
         content = { Text("Hello, world!") },
         onClick = {
-            println("Hello, Koin and Circuit integration!")
+            state.eventSink(BarScreen.Event.HelloButtonClicked)
         },
     )
     Button(

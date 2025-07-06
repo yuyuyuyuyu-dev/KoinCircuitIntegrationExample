@@ -20,7 +20,11 @@ val uiModule = module {
             .addUi<BarScreen, BarScreen.State> { state, modifier ->
                 Bar(state = state, modifier = modifier)
             }
-            .addPresenterFactory(factory = BarPresenter.Factory())
+            .addPresenterFactory(
+                factory = BarPresenter.Factory(
+                    helloUseCase = get()
+                )
+            )
 
             .build()
     }

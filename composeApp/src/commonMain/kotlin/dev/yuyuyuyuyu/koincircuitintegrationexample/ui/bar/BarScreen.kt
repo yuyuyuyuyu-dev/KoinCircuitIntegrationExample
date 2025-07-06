@@ -10,6 +10,7 @@ data object BarScreen : Screen {
     ) : CircuitUiState
 
     sealed class Event : CircuitUiEvent {
+        data object HelloButtonClicked : Event()
         data object NavigateBackButtonClicked : Event()
     }
 }
