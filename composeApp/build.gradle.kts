@@ -71,6 +71,7 @@ kotlin {
             implementation(libs.androidx.lifecycle.runtimeCompose)
 
             implementation(libs.koin.compose)
+            implementation(libs.circuit)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

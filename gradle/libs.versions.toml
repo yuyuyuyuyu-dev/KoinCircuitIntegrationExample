@@ -34,6 +34,7 @@ androidx-lifecycle-runtimeCompose = { module = "org.jetbrains.androidx.lifecycle
 kotlinx-coroutinesSwing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
 
 koin-compose = { group = "io.insert-koin", name = "koin-compose", version.ref = "koin" }
+circuit = { group = "com.slack.circuit", name = "circuit-foundation", version.ref = "circuit" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
