@@ -1,4 +1,4 @@
-package dev.yuyuyuyuyu.koincircuitintegrationexample
+package dev.yuyuyuyuyu.koincircuitintegrationexample.ui
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
